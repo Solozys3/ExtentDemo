@@ -37,12 +37,14 @@ public class LoginPageTest {
 		Assert.assertEquals(actualURL, expectedURL);
 	}
 	
-	@AfterMethod
-    public void tearDown() {
-        if (driver != null) {
-            driver.quit();
-        }
-    }
+	//@AfterMethod
+   // public void tearDown() {
+    //    if (driver != null) {
+       //     driver.quit();
+     //   }
+   // }
 }
+
+
 
 		
